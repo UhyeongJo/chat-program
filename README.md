@@ -21,6 +21,8 @@ $ ./c4-disp.out
 $ ./c4-term.out
 ```
 
+![](./gif/run.gif)
+
 ## ▪︎ Server
 
 * 출력 전용
@@ -29,7 +31,7 @@ $ ./c4-term.out
 
 ---
 
-### Server Func.
+### Server Function
 
 * 메뉴 정보 클라이언트에 전달
 ```console
@@ -46,14 +48,14 @@ $ ./c4-term.out
 
 
 ## ▪︎ Client
-### Monitor Terminal
+### Monitor Terminal (c*-disp)
 
 * 출력 전용
 * 서버가 전송하는 정보에 대한 메시지 / 사용자가 입력한 채팅 메시지가 출력되는 터미널
 
 ---
 
-### Input Terminal
+### Input Terminal (c*-term)
 
 * 입력 전용 
 * 사용자의 채팅 메시지를 입력 받는 터미널
